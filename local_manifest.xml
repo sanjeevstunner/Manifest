@@ -4,11 +4,19 @@
 	<!-- Remotes -->
 	<remote name="ss" fetch="https://github.com/sanjeevstunner" />
 	<remote name="sa" fetch="https://github.com/sanjeevstunner-archive" />
+	<remote name="sg" fetch="https://gitlab.com/sanjeevstunner" />
 	
+	<remote name="LineageOS" fetch="https://github.com/LineageOS" />
+
+        <remove-project name="packages_resources_devicesettings" />
+
+        <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="LineageOS" revision="lineage-19.0" />
+
 	<!-- Trees -->
 	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" remote="ss" revision="pex" />	
-	<project path="kernel/xiaomi/sm8150" name="kernel_sm8150" remote="ss" revision="12" />
-	<project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" remote="ss" revision="12" />
-	<project path="vendor/xiaomi/devicesettings" name="vendor_xiaomi_device_settings" remote="ss" revision="wip" />
-	
+	<project path="kernel/xiaomi/sm8150" name="kernel_sm8150" revision="12" remote="ss" />
+	<project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" revision="wip" remote="ss" />
+	<project path="vendor/xiaomi/devicesettings" name="vendor_xiaomi_device_settings" revision="wip" remote="ss" />
+        <project path="vendor/miuicamera" name="android_vendor_miuicamera" revision="12.0" remote="sg" />
+
 </manifest>
