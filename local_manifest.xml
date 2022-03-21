@@ -20,7 +20,7 @@
 	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" revision="12_st" remote="ss" />	
 	<project path="kernel/xiaomi/sm8150" name="kernel_sm8150" revision="12" remote="ss" />
 	<project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" revision="wip" remote="ss" />
-	<project path="vendor/xiaomi/devicesettings" name="vendor_xiaomi_device_settings" revision="wip" remote="ss" />
-	<project path="vendor/miuicamera" name="android_vendor_miuicamera" revision="12.0" remote="sg" />
+<!-- 	<project path="vendor/xiaomi/devicesettings" name="vendor_xiaomi_device_settings" revision="wip" remote="ss" />
+	<project path="vendor/miuicamera" name="android_vendor_miuicamera" revision="12.0" remote="sg" /> -->
 	
 </manifest>
