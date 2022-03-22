@@ -5,14 +5,11 @@
 	<remote name="ss" fetch="https://github.com/sanjeevstunner" />
 	<remote name="sg" fetch="https://gitlab.com/sanjeevstunner" />
         <remote name="raghav" fetch="https://github.com/raghavt20" />
-        <remote name="chal" fetch="https://github.com/chaldeaprjkt" />
+        <remote name="mochi" fetch="https://github.com/Jebaitedneko" />
 
-	<remote name="LineageOS" fetch="https://github.com/LineageOS" />
-	<remote name="CrDroid-GitLab" fetch="https://gitlab.com/crdroidandroid" />
-	
         <!-- Trees -->
 	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" revision="12_st" remote="ss" />
-	<project path="kernel/xiaomi/sm8150" name="kernel_sm8150" revision="12" remote="ss" />
+	<project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu" revision="r2" remote="mochi" />
 	<project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" revision="wip" remote="ss" />
 	
 	<!-- Addons -->
