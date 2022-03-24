@@ -13,8 +13,8 @@
 	<project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" revision="wip" remote="ss" />
 	
 	<!-- Addons -->
+        <project path="vendor/xiaomi/devicesettings" name="vendor_xiaomi_device_settings" revision="wip" remote="ss" />
 <!-- 	<project path="device/xiaomi/vayu/pocket" name="battery_friendly_pocketmode" revision="master" remote="ss" />
-	<project path="vendor/xiaomi/devicesettings" name="vendor_xiaomi_device_settings" revision="wip" remote="ss" />
 	<project path="vendor/miuicamera" name="android_vendor_miuicamera" revision="12.0" remote="sg" /> -->
 	
 </manifest>
