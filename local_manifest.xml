@@ -3,7 +3,8 @@
 
 	<!-- Remotes -->
 	<remote name="ss" fetch="https://github.com/sanjeevstunner" />
-	<remote name="sg" fetch="https://gitlab.com/sanjeevstunner" />
+	<remote name="sa" fetch="https://github.com/sanjeevstunner-archive" />
+        <remote name="sg" fetch="https://gitlab.com/sanjeevstunner" />
         <remote name="raghav" fetch="https://github.com/raghavt20" />
         <remote name="mochi" fetch="https://github.com/Jebaitedneko" />
 	
@@ -11,7 +12,7 @@
 	<remove-project name="device_qcom_sepolicy_vndr" />
 	
 	<!-- Replacements -->
-	<project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" revision="twelve" remote="ss" />
+	<project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" revision="twelve" remote="sa" />
 
         <!-- Trees -->
 	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" revision="12_wip" remote="ss" />
@@ -20,7 +21,6 @@
 	
 	<!-- Addons -->
         <project path="vendor/xiaomi/devicesettings" name="vendor_xiaomi_device_settings" revision="12" remote="ss" />
-<!-- 	<project path="device/xiaomi/vayu/pocket" name="battery_friendly_pocketmode" revision="master" remote="ss" />
-	<project path="vendor/miuicamera" name="android_vendor_miuicamera" revision="12.0" remote="sg" /> -->
+<!-- 	<project path="device/xiaomi/vayu/pocket" name="battery_friendly_pocketmode" revision="master" remote="ss" /> -->
 	
 </manifest>
