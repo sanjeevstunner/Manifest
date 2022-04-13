@@ -6,12 +6,6 @@
 	<remote name="sa" fetch="https://github.com/sanjeevstunner-archive" />
         <remote name="mochi" fetch="https://github.com/Jebaitedneko" />
 	
-	<!-- Remove -->
-	<remove-project name="device_qcom_sepolicy_vndr" />
-	
-	<!-- Replacements -->
-	<project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" revision="twelve" remote="sa" />
-	
         <!-- Trees -->
 	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" revision="12_wip" remote="ss" />
 	<project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" revision="12" remote="ss" />
