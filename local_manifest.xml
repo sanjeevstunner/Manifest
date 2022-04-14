@@ -13,5 +13,6 @@
 	
 	<!-- Addons -->
         <project path="vendor/xiaomi/devicesettings" name="vendor_xiaomi_device_settings" revision="12" remote="ss" />
+	<project path="device/xiaomi/vayu/pocket" name="battery_friendly_pocketmode" revision="master" remote="sa" />
 	
 </manifest>
