@@ -14,7 +14,7 @@
 	
 	<!-- Addons -->
         <project path="vendor/xiaomi/devicesettings" name="vendor_xiaomi_device_settings" revision="12_wip" remote="ss" />
-        <project path="vendor/PixelLauncher" name="vendor_PixelLauncher" revision="khonsu" remote="launcher" />
+        <project path="vendor/PixelLauncher" name="vendor_pixel_launcher" revision="main" remote="ss" />
 	<project path="vendor/google/camera" name="vendor_google_camera" revision="main" remote="sg" />
 
 </manifest>
