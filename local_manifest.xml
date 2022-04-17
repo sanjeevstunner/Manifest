@@ -6,6 +6,7 @@
 	<remote name="sa" fetch="https://github.com/sanjeevstunner-archive" />
         <remote name="mochi" fetch="https://github.com/Jebaitedneko" />
 	<remote name="sg" fetch="https://gitlab.com/sanjeevstunner"/>
+        <remote name="clhex-gl" fetch="https://gitlab.com/clhexftw"/>
 	<remote name="launcher" fetch="https://gitlab.com/Ardjlon"/>
 
 	<!-- Trees -->
@@ -15,7 +16,7 @@
 	
 	<!-- Addons -->
         <project path="vendor/xiaomi/devicesettings" name="vendor_xiaomi_device_settings" revision="12_wip" remote="ss" />
-        <project path="vendor/google/camera" name="vendor_googlecamera" revision="main" remote="sg" />
         <project path="vendor/PixelLauncher" name="vendor_PixelLauncher" revision="khonsu" remote="launcher" />
-	
+	<project path="vendor/Gcam" name="vendor_googlecamera" revision="main" remote="clhex-gl" />
+
 </manifest>
