@@ -7,7 +7,7 @@
         <remote name="mochi" fetch="https://github.com/Jebaitedneko" />
 	<remote name="sg" fetch="https://gitlab.com/sanjeevstunner"/>
         <remote name="clhex-gl" fetch="https://gitlab.com/clhexftw"/>
-	<remote name="launcher" fetch="https://gitlab.com/Ardjlon"/>
+	<remote name="launcher" fetch="https://github.com/Ardjlon"/>
 
 	<!-- Trees -->
 	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" revision="12_wip" remote="ss" />
