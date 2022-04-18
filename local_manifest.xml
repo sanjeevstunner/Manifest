@@ -5,7 +5,7 @@
 	<remote name="ss" fetch="https://github.com/sanjeevstunner" />
 	<remote name="sa" fetch="https://github.com/sanjeevstunner-archive" />
         <remote name="mochi" fetch="https://github.com/Jebaitedneko" />
-	<remote name="sg" fetch="https://gitlab.com/sanjeevstunner"/
+	<remote name="sg" fetch="https://gitlab.com/sanjeevstunner"/>
 
 	<!-- Trees -->
 	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" revision="12_wip" remote="ss" />
