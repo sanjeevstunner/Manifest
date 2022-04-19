@@ -13,8 +13,8 @@
 	<project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu" revision="r2" remote="mochi" />
 	
 	<!-- Addons -->
-        <project path="vendor/xiaomi/devicesettings" name="vendor_xiaomi_device_settings" revision="12_wip" remote="ss" />
+        <project path="vendor/xiaomi/devicesettings" name="vendor_xiaomi_device_settings" revision="12" remote="ss" />
         <project path="vendor/pixel/launcher" name="vendor_pixel_launcher" revision="main" remote="ss" />
-	<project path="vendor/google/camera" name="vendor_google_camera" revision="main" remote="sg" />
+<!-- 	<project path="vendor/google/camera" name="vendor_google_camera" revision="main" remote="sg" /> -->
 
 </manifest>
