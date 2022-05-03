@@ -5,7 +5,6 @@
 	<remote name="ss" fetch="https://github.com/sanjeevstunner" />
 	<remote name="mochi" fetch="https://github.com/Jebaitedneko" />
 	<remote name="sg" fetch="https://gitlab.com/sanjeevstunner"/>
-        <remote name="clhex-gl" fetch="https://gitlab.com/clhexftw"/>
 
 	<!-- Trees -->
 	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" revision="pex" remote="ss" />
