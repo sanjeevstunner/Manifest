@@ -6,11 +6,14 @@
 	<remote name="sa" fetch="https://github.com/sanjeevstunner-archive" />
         <remote name="mochi" fetch="https://github.com/Jebaitedneko" />
 	<remote name="sg" fetch="https://gitlab.com/sanjeevstunner"/>
-        <remote name="clhex-gl" fetch="https://gitlab.com/clhexftw"/>
 
 	<!-- Trees -->
 	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" revision="test" remote="ss" />
 	<project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" revision="12" remote="ss" />
 	<project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu" revision="r2" remote="mochi" />
-		
+	
+	<!-- Add-ons -->
+	<project path="vendor/xiaomi/devicesettings" name="vendor_xiaomi_device_settings" revision="12" remote="ss" />
+	<project path="vendor/Gcam" name="vendor_googlecamera" revision="main" remote="sg" />
+	
 </manifest>
