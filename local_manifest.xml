@@ -8,7 +8,7 @@
 	<remote name="sg" fetch="https://gitlab.com/sanjeevstunner"/>
 
 	<!-- Trees -->
-	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" revision="12" remote="ss" />
+	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" revision="12_wip" remote="ss" />
 	<project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" revision="12_wip" remote="ss" />
 	<project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu" revision="r2" remote="mochi" />
 	
