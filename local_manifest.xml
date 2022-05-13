@@ -15,7 +15,7 @@
 	<!-- Add-ons -->
 	<project path="vendor/xiaomi/devicesettings" name="vendor_xiaomi_device_settings" revision="12" remote="ss" />
 <!-- 	<project path="vendor/Gcam" name="vendor-g-cam-bsg" revision="main" remote="sg" /> -->
-	<project path="vendor/pixel/launcher" name="vendor_pixel_launcher" revision="main" remote="ss" />
+	<project path="vendor/pixel/launcher" name="vendor_pixel_launcher" revision="12" remote="ss" />
 <!-- 	<project path="vendor/miuicamera" name="vendor_miuicamera" revision="12.1" remote="sg" /> -->
 	
 </manifest>
