@@ -7,12 +7,6 @@
         <remote name="mochi" fetch="https://github.com/Jebaitedneko" />
 	<remote name="sg" fetch="https://gitlab.com/sanjeevstunner"/>
 
-        <!-- Remove -->
-	<remove-project name="frameworks_base" />
-
-	<!-- Replace -->
-	<project path="frameworks/base" name="pe_frameworks_base" revision="12_mod" remote="sa" />
-
 	<!-- Trees -->
 	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" revision="12_wip" remote="ss" />
 	<project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" revision="12" remote="ss" />
