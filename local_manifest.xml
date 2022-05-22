@@ -11,15 +11,14 @@
 
 	<!-- Trees -->
 	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" revision="12_wip" remote="ss" />
-	<project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" revision="12" remote="ss" />
+	<project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" revision="test/dolby" remote="ss" />
 	<project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu" revision="r2" remote="mochi" />
 	
 	<!-- Add-ons -->
 	<project path="vendor/xiaomi/devicesettings" name="vendor_xiaomi_device_settings" revision="test/dolby" remote="ss" />
 	<project path="vendor/Gcam" name="vendor-g-cam-bsg" revision="wip" remote="sg" />
 	<project path="vendor/pixel/launcher" name="vendor_pixel_launcher" revision="12" remote="ss" />
-	<project path="vendor/motorola/dolby" name="vendor_motorola_dolby" revision="snowcone" remote="ss" />
-	
-<!-- 	<project path="vendor/miuicamera" name="vendor_miuicamera" revision="12.1" remote="sg" /> -->
+<!-- 	<project path="vendor/motorola/dolby" name="vendor_motorola_dolby" revision="snowcone" remote="ss" />
+        <project path="vendor/miuicamera" name="vendor_miuicamera" revision="12.1" remote="sg" /> -->
 	
 </manifest>
