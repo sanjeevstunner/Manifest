@@ -6,13 +6,14 @@
 	<remote name="sa" fetch="https://github.com/sanjeevstunner-archive" />
         <remote name="mochi" fetch="https://github.com/Jebaitedneko" />
 	<remote name="pp_d" fetch="https://github.com/PixelPlusUI-Devices" />
+	<remote name="los" fetch="https://github.com/LineageOS" />
 	
 	<remote name="sg" fetch="https://gitlab.com/sanjeevstunner"/>
 
 	<!-- Trees -->
 	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" revision="12" remote="ss" />
 	<project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" revision="12" remote="ss" />
-	<project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu" revision="r2" remote="mochi" />
+	<project path="kernel/xiaomi/sm8150" name="android_kernel_xiaomi_sm8150" revision="lineage-19.1" remote="los" />
 	
 	<!-- Add-ons -->
 	<project path="vendor/xiaomi/devicesettings" name="vendor_xiaomi_device_settings" revision="12" remote="ss" />
