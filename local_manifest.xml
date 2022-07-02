@@ -3,12 +3,8 @@
 	
 	<!-- Remotes -->
 	<remote name="ss" fetch="https://github.com/sanjeevstunner" />
-	<remote name="sa" fetch="https://github.com/sanjeevstunner-archive" />
-        <remote name="mochi" fetch="https://github.com/Jebaitedneko" />
-	<remote name="pp_d" fetch="https://github.com/PixelPlusUI-Devices" />
-	<remote name="los" fetch="https://github.com/LineageOS" />
+        <remote name="los" fetch="https://github.com/LineageOS" />
 	
-	<remote name="los_vendor" fetch="https://gitlab.com/the-muppets" />
 	<remote name="sg" fetch="https://gitlab.com/sanjeevstunner"/>
 
 
