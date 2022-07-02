@@ -11,7 +11,8 @@
 	<remote name="sg" fetch="https://gitlab.com/sanjeevstunner"/>
 
 	<!-- Trees -->
-	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" revision="12" remote="ss" />
+	<project path="device/xiaomi/vayu" name="lineage_device_xiaomi_vayu" revision="12" remote="ss" />
+	<project path="device/xiaomi/sm8150-common" name="lineage_device_xiaomi_sm8150-common" revision="12" remote="ss" />
 	<project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" revision="12" remote="ss" />
 	<project path="kernel/xiaomi/sm8150" name="android_kernel_xiaomi_sm8150" revision="lineage-19.1" remote="los" />
 	
