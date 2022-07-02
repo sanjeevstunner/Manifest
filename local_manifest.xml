@@ -11,6 +11,13 @@
 	<remote name="los_vendor" fetch="https://gitlab.com/the-muppets" />
 	<remote name="sg" fetch="https://gitlab.com/sanjeevstunner"/>
 
+	
+	<!-- Remove -->
+	<remove-project name="hardware_xiaomi" />
+
+	<!-- Replace -->
+	<project path="hardware/xiaomi" name="android_hardware_xiaomi" revision="lineage-19.1" remote="los" />
+	
 	<!-- Trees -->
 	<project path="device/xiaomi/vayu" name="lineage_device_xiaomi_vayu" revision="12" remote="ss" />
 	<project path="device/xiaomi/sm8150-common" name="lineage_device_xiaomi_sm8150-common" revision="12" remote="ss" />
