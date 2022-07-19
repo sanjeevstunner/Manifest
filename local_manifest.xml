@@ -4,13 +4,15 @@
 	<!-- Remotes -->
 	<remote name="ss" fetch="https://github.com/sanjeevstunner" />
         <remote name="mochi" fetch="https://github.com/Jebaitedneko" />
+        <remote name="raghav_org" fetch="https://github.com/poco-x3p" />
+	https://github.com//
 	
 	<remote name="sg" fetch="https://gitlab.com/sanjeevstunner"/>
 
 	<!-- Trees -->
 	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" revision="wip" remote="ss" />
-	<project path="vendor/xiaomi/vayu" name="vayu_vendor" revision="12" remote="ss" />
-	<project path="hardware/xiaomi" name="hardware_xiaomi" revision="12" remote="ss" />
+	<project path="vendor/xiaomi/vayu" name="android_vendor_xiaomi_vayu" revision="12.1" remote="ss" />
+	<project path="hardware/xiaomi" name="android_hardware_xiaomi" revision="lineage-19.1" remote="raghav_org" />
 
 	<project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu" revision="r2" remote="mochi" />
 	
