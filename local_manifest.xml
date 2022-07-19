@@ -10,7 +10,7 @@
 	<remote name="sg" fetch="https://gitlab.com/sanjeevstunner"/>
 
 	<!-- Trees -->
-	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" revision="pos" remote="ss" />
+	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" revision="12" remote="ss" />
 	<project path="vendor/xiaomi/vayu" name="android_vendor_xiaomi_vayu" revision="12.1" remote="ss" />
 	<project path="hardware/xiaomi" name="android_hardware_xiaomi" revision="lineage-19.1" remote="raghav_org" />
 
