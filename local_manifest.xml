@@ -17,8 +17,8 @@
 	<project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu" revision="r2" remote="mochi" />
 	
 	<!-- Add-ons -->
-	<project path="vendor/xiaomi/devicesettings" name="vendor_xiaomi_device_settings" revision="wip" remote="ss" />
+	<!-- <project path="vendor/xiaomi/devicesettings" name="vendor_xiaomi_device_settings" revision="wip" remote="ss" />
 	<project path="vendor/Gcam" name="vendor-g-cam-bsg" revision="main" remote="sg" />
-	<project path="vendor/pixel/launcher" name="vendor_pixel_launcher" revision="12" remote="ss" />
+	<project path="vendor/pixel/launcher" name="vendor_pixel_launcher" revision="12" remote="ss" /> -->
 
 </manifest>
