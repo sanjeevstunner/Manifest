@@ -5,8 +5,7 @@
 	<remote name="ss" fetch="https://github.com/sanjeevstunner" />
         <remote name="mochi" fetch="https://github.com/Jebaitedneko" />
         <remote name="raghav_org" fetch="https://github.com/poco-x3p" />
-        <remote name="derp" fetch="https://github.com/DerpFest-Devices" />
-	
+        
 	<remote name="sg" fetch="https://gitlab.com/sanjeevstunner"/>
 
 	<!-- Trees -->
@@ -14,7 +13,7 @@
 	<project path="vendor/xiaomi/vayu" name="android_vendor_xiaomi_vayu" revision="12.1" remote="ss" />
 	<project path="hardware/xiaomi" name="android_hardware_xiaomi" revision="lineage-19.1" remote="raghav_org" />
 
-	<project path="kernel/xiaomi/vayu" name="kernel_xiaomi_vayu" revision="main" remote="derp" />	
+	<project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu" revision="r2" remote="mochi" />
 
 	<!-- Add-ons -->
 	<!-- <project path="vendor/xiaomi/devicesettings" name="vendor_xiaomi_device_settings" revision="wip" remote="ss" />
