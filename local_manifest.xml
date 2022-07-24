@@ -12,9 +12,11 @@
 	<!-- Better PE -->
 	<!-- Remove	 -->
 	<remove-project name="frameworks_base" />
+	<remove-project name="packages_apps_Settings" />
 	
 	<!-- Replace	 -->
 	<project path="frameworks/base" name="frameworks_base" revision="twelve-plus" remote="better_pixel" />
+	<project path="packages/apps/Settings" name="packages_apps_Settings" revision="twelve-plus" remote="better_pixel" />
 	
 	<!-- Device stuff -->
 	<!-- Trees -->
