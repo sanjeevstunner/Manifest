@@ -28,7 +28,7 @@
 
 	<!-- Add-ons -->
 <!-- 	<project path="vendor/xiaomi/devicesettings" name="vendor_xiaomi_device_settings" revision="wip" remote="ss" /> -->
- 	<project path="vendor/moto/dolby" name="vendor_moto_dolby" revision="main" remote="ss" />
+<!-- 	<project path="vendor/moto/dolby" name="vendor_moto_dolby" revision="main" remote="ss" /> -->
 	<project path="vendor/Gcam" name="vendor-g-cam-bsg" revision="main" remote="sg" />
 	<project path="vendor/pixel/launcher" name="vendor_pixel_launcher" revision="12" remote="ss" />
 
