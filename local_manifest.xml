@@ -4,7 +4,6 @@
 	<!-- Remotes -->
 	<remote name="ss" fetch="https://github.com/sanjeevstunner" />
         <remote name="aln" fetch="https://github.com/aLnProject" />
-        <remote name="raghav_org" fetch="https://github.com/poco-x3p" />
         <remote name="better_pixel" fetch="https://github.com/BetterPixelExperience" />
 
 	<remote name="sg" fetch="https://gitlab.com/sanjeevstunner"/>
