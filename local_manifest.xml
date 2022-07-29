@@ -3,7 +3,7 @@
 
 	<!-- Remotes -->
 	<remote name="ss" fetch="https://github.com/sanjeevstunner" />
-        <remote name="aln" fetch="https://github.com/aLnProject" />
+        <remote name="mochi" fetch="https://github.com/Jebaitedneko" />
         <remote name="better_pixel" fetch="https://github.com/BetterPixelExperience" />
 
 	<remote name="sg" fetch="https://gitlab.com/sanjeevstunner"/>
@@ -23,7 +23,7 @@
 	<project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" revision="12.1" remote="ss" />
 	<project path="hardware/xiaomi" name="hardware_xiaomi" revision="12" remote="ss" />
 
-	<project path="kernel/xiaomi/vayu" name="kernel_xiaomi_vayu" revision="zeta-staging" remote="aln" />
+	<project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu" revision="r2" remote="mochi" />
 
 	<!-- Add-ons -->
 <!-- 	<project path="vendor/xiaomi/devicesettings" name="vendor_xiaomi_device_settings" revision="wip" remote="ss" /> -->
