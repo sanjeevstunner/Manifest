@@ -23,7 +23,7 @@
 	<project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" revision="12.1" remote="ss" />
 	<project path="hardware/xiaomi" name="hardware_xiaomi" revision="12" remote="ss" />
 
-	<project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu" revision="r2" remote="mochi" />
+	<project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu" revision="LA.UM.9.1.r1-12100-SMxxx0.QSSI12.0" remote="mochi" />
 
 	<!-- Add-ons -->
 <!-- 	<project path="vendor/xiaomi/devicesettings" name="vendor_xiaomi_device_settings" revision="wip" remote="ss" /> -->
