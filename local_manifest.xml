@@ -14,12 +14,14 @@
 	<remove-project name="frameworks_av" />
 	<remove-project name="packages_apps_Settings" />
 	<remove-project name="vendor_aosp" />
+	<remove-project name="device_custom_sepolicy" />
 
 	<!-- Replace	 -->
 	<project path="frameworks/base" name="frameworks_base" revision="12" remote="bpe" />
 	<project path="frameworks/av" name="frameworks_av" revision="12" remote="bpe" />
 	<project path="packages/apps/Settings" name="packages_apps_Settings" revision="12" remote="bpe" />
 	<project path="vendor/aosp" name="vendor_aosp" revision="12" remote="bpe" />
+	<project path="device/custom/sepolicy" name="device_custom_sepolicy" revision="12" remote="bpe" />
 
 	<!-- Device stuff -->
 	<!-- Trees -->
