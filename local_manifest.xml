@@ -2,37 +2,20 @@
 <manifest>
 
 	<!-- Remotes -->
-	<remote name="ss" fetch="https://github.com/sanjeevstunner" />
-	<remote name="aln" fetch="https://github.com/aLnProject" />
-        <remote name="bpe" fetch="https://github.com/BetterPixelExperience" />
+	<remote name="home" fetch="https://github.com/sanjeevstunner" />
 
-	<remote name="sg" fetch="https://gitlab.com/sanjeevstunner"/>
-
-        <!-- Better PE -->
-	<!-- Remove	 -->
-	<remove-project name="frameworks_base" />
-	<remove-project name="frameworks_av" />
-	<remove-project name="packages_apps_Settings" />
-	<remove-project name="vendor_aosp" />
-
-        <!-- Replace	 -->
-	<project path="frameworks/base" name="frameworks_base" revision="12" remote="bpe" />
-	<project path="frameworks/av" name="frameworks_av" revision="12" remote="bpe" />
-	<project path="packages/apps/Settings" name="packages_apps_Settings" revision="12" remote="bpe" />
-	<project path="vendor/aosp" name="vendor_aosp" revision="12" remote="bpe" />
+	<remote name="home_lab" fetch="https://gitlab.com/sanjeevstunner"/>
 
 	<!-- Device stuff -->
 	<!-- Trees -->
-	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" revision="wip" remote="ss" />
-	<project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" revision="12" remote="ss" />
-	<project path="hardware/xiaomi" name="hardware_xiaomi" revision="12" remote="ss" />
+	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" revision="13" remote="home" />
+	<project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" revision="13" remote="home" />
+	<project path="hardware/xiaomi" name="hardware_xiaomi" revision="13" remote="home" />
 
-	<project path="kernel/xiaomi/vayu" name="kernel_xiaomi_vayu" revision="zeta-staging" remote="aln" />
+	<project path="kernel/xiaomi/vayu" name="kernel_xiaomi_vayu" revision="main" remote="home" />
 
 	<!-- Add-ons -->
- 	<project path="vendor/xiaomi/devicesettings" name="vendor_xiaomi_device_settings" revision="12" remote="ss" />
-<!-- 	<project path="vendor/moto/dolby" name="vendor_moto_dolby" revision="main" remote="ss" /> -->
+<!--  	<project path="vendor/xiaomi/devicesettings" name="vendor_xiaomi_device_settings" revision="12" remote="ss" /> -->
  	<project path="vendor/Gcam" name="vendor-g-cam-bsg" revision="main" remote="sg" />
- 	<project path="vendor/pixel/launcher" name="vendor_pixel_launcher" revision="12" remote="ss" />
 
 </manifest>
