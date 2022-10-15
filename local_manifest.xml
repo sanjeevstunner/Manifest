@@ -15,7 +15,7 @@
 	<project path="kernel/xiaomi/vayu" name="kernel_xiaomi_vayu" revision="main" remote="home" />
 
 	<!-- Add-ons -->
-<!--  	<project path="vendor/xiaomi/devicesettings" name="vendor_xiaomi_device_settings" revision="12" remote="ss" /> -->
- 	<project path="vendor/Gcam" name="vendor-g-cam-bsg" revision="main" remote="sg" />
+<!--  	<project path="vendor/xiaomi/devicesettings" name="vendor_xiaomi_device_settings" revision="12" remote="home" /> -->
+ 	<project path="vendor/Gcam" name="vendor-g-cam-bsg" revision="main" remote="home_lab" />
 
 </manifest>
