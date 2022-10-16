@@ -3,6 +3,7 @@
 
 	<!-- Remotes -->
 	<remote name="home" fetch="https://github.com/sanjeevstunner" />
+	<remote name="mochi" fetch="https://github.com/Jebaitedneko" />
 
 	<remote name="home_lab" fetch="https://gitlab.com/sanjeevstunner"/>
 
@@ -12,7 +13,8 @@
 	<project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" revision="13" remote="home" />
 	<project path="hardware/xiaomi" name="hardware_xiaomi" revision="13" remote="home" />
 
-	<project path="kernel/xiaomi/vayu" name="kernel_xiaomi_vayu" revision="main" remote="home" />
+<!-- 	<project path="kernel/xiaomi/vayu" name="kernel_xiaomi_vayu" revision="main" remote="home" /> -->
+	<project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu" revision="LA.UM.9.1.r1-12100-SMxxx0.QSSI12.0" remote="mochi" />
 
 	<!-- Add-ons -->
 <!--  	<project path="vendor/xiaomi/devicesettings" name="vendor_xiaomi_device_settings" revision="12" remote="home" /> -->
