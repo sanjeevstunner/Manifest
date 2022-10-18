@@ -4,7 +4,6 @@
 	<!-- Remotes -->
 	<remote name="home" fetch="https://github.com/sanjeevstunner" />
 	<remote name="mochi" fetch="https://github.com/Jebaitedneko" />
-	<remote name="arrow" fetch="https://github.com/ArrowOS-Devices" />
 
 	<remote name="home_lab" fetch="https://gitlab.com/sanjeevstunner"/>
 
@@ -15,7 +14,6 @@
 	<project path="hardware/xiaomi" name="hardware_xiaomi" revision="13" remote="home" />
 
 	<project path="kernel/xiaomi/vayu" name="kernel_xiaomi_vayu" revision="main" remote="home" />
-	<project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="arrow" revision="arrow-11.0" />
 
 	<!-- Add-ons -->
 <!--  	<project path="vendor/xiaomi/devicesettings" name="vendor_xiaomi_device_settings" revision="12" remote="home" /> -->
