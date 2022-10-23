@@ -10,7 +10,7 @@
 	<!-- Device stuff -->
 	<!-- Trees -->
 	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" revision="wip" remote="home" />
-	<project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" revision="13" remote="home" />
+	<project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" revision="wip" remote="home" />
 	<project path="hardware/xiaomi" name="hardware_xiaomi" revision="13" remote="home" />
 
 	<project path="kernel/xiaomi/vayu" name="kernel_xiaomi_vayu" revision="main" remote="home" />
