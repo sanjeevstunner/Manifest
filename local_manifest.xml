@@ -9,14 +9,14 @@
 
 	<!-- Device stuff -->
 	<!-- Trees -->
-	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" revision="wip" remote="home" />
-	<project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" revision="wip" remote="home" />
-	<project path="hardware/xiaomi" name="hardware_xiaomi" revision="13" remote="home" />
+	<project revision="wip" remote="home" name="device_xiaomi_vayu" path="device/xiaomi/vayu" />
+	<project revision="wip" remote="home" name="vendor_xiaomi_vayu" path="vendor/xiaomi/vayu" />
+	<project revision="13" remote="home" name="hardware_xiaomi" path="hardware/xiaomi" />
 
-	<project path="kernel/xiaomi/vayu" name="kernel_xiaomi_vayu" revision="main" remote="home" />
+    	<project revision="main" remote="home" name="kernel_xiaomi_vayu" path="kernel/xiaomi/vayu" />
 
 	<!-- Add-ons -->
-<!--  	<project path="vendor/xiaomi/devicesettings" name="vendor_xiaomi_device_settings" revision="12" remote="home" /> -->
- 	<project path="vendor/Gcam" name="vendor-g-cam-bsg" revision="main" remote="home_lab" />
+<!--  	<project revision="12" remote="home" name="vendor_xiaomi_device_settings" path="vendor/xiaomi/devicesettings" /> -->
+    	<project revision="main" remote="home_lab" name="vendor-g-cam-bsg" path="vendor/Gcam" />
 
 </manifest>
