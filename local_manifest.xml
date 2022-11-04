@@ -4,6 +4,7 @@
 	<!-- Remotes -->
 	<remote name="home" fetch="https://github.com/sanjeevstunner" />
 	<remote name="mochi" fetch="https://github.com/Jebaitedneko" />
+	<remote name="los" fetch="https://github.com/LineageOS" />
 
 	<remote name="home_lab" fetch="https://gitlab.com/sanjeevstunner"/>
         <remote name="clang" fetch="https://gitlab.com/Amritorock" />
@@ -12,7 +13,7 @@
 	<!-- Trees -->
 	<project revision="13" remote="home" name="device_xiaomi_vayu" path="device/xiaomi/vayu" />
 	<project revision="13" remote="home" name="vendor_xiaomi_vayu" path="vendor/xiaomi/vayu" />
-	<project revision="13" remote="home" name="hardware_xiaomi" path="hardware/xiaomi" />
+	<project revision="lineage-20" remote="los" name="android_hardware_xiaomi" path="hardware/xiaomi" />
 
     	<project revision="main" remote="home" name="kernel_xiaomi_vayu" path="kernel/xiaomi/vayu" />
 
