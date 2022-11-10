@@ -11,7 +11,7 @@
 	<!-- Trees -->
 	<project revision="13" remote="home" name="android_device_xiaomi_vayu" path="device/xiaomi/vayu" />
 	<project revision="13" remote="home" name="android_vendor_xiaomi_vayu" path="vendor/xiaomi/vayu" />
-	<project revision="13" remote="home" name="android_android_hardware_xiaomi" path="hardware/xiaomi" />
+	<project revision="13" remote="home" name="android_hardware_xiaomi" path="hardware/xiaomi" />
 
     	<project revision="main" remote="home" name="android_kernel_xiaomi_vayu" path="kernel/xiaomi/vayu" />
 
