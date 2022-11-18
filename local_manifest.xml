@@ -13,7 +13,7 @@
 	<remove-project name="frameworks_base" />
 
 	<!-- Replace -->
-	<project revision="thirteen" remote="home" name="pe_frameworks_base" path="frameworks/base" />
+	<project revision="13" remote="home" name="pe_frameworks_base" path="frameworks/base" />
 
 	<!-- Device stuff -->
 	<!-- Trees -->
