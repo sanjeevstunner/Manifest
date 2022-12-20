@@ -3,12 +3,13 @@
 
 	<!-- Remotes -->
 	<remote name="home" fetch="https://github.com/sanjeevstunner" />
+	<remote name="mochi" fetch="https://github.com/Jebaitedneko" />
 	<remote name="parasite_project" fetch="https://github.com/TheParasiteProject" />
 
 	<remote name="home_lab" fetch="https://gitlab.com/sanjeevstunner"/>
         <remote name="clang" fetch="https://gitlab.com/Amritorock" />
 
-	
+
         <!-- Remove -->
 	<remove-project name="frameworks_base" />
 
@@ -21,7 +22,7 @@
 	<project revision="wip" remote="home" name="android_vendor_xiaomi_vayu" path="vendor/xiaomi/vayu" />
 	<project revision="13" remote="home" name="android_hardware_xiaomi" path="hardware/xiaomi" />
 
-    	<project revision="main" remote="home" name="android_kernel_xiaomi_vayu" path="kernel/xiaomi/vayu" />
+    	<project revision="caf" remote="mochi" name="android_kernel_xiaomi_vayu" path="kernel/xiaomi/vayu" />
 
 	<!-- Add-ons -->
 <!--  	<project revision="12" remote="home" name="vendor_xiaomi_device_settings" path="vendor/xiaomi/devicesettings" /> -->
