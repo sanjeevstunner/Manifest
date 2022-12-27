@@ -14,7 +14,7 @@
 	<project revision="13" remote="home" name="android_vendor_xiaomi_vayu" path="vendor/xiaomi/vayu" />
 	<project revision="13" remote="home" name="android_hardware_xiaomi" path="hardware/xiaomi" />
 
-    	<project revision="caf" remote="mochi" name="android_kernel_xiaomi_vayu" path="kernel/xiaomi/vayu" />
+    	<project revision="main" remote="home" name="android_kernel_xiaomi_vayu" path="kernel/xiaomi/vayu" />
 
 	<!-- Add-ons -->
 <!--  	<project revision="12" remote="home" name="vendor_xiaomi_device_settings" path="vendor/xiaomi/devicesettings" /> -->
