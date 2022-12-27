@@ -7,7 +7,6 @@
 	<remote name="parasite_project" fetch="https://github.com/TheParasiteProject" />
 
 	<remote name="home_lab" fetch="https://gitlab.com/sanjeevstunner"/>
-        <remote name="clang" fetch="https://gitlab.com/Amritorock" />
 
 	<!-- Device stuff -->
 	<!-- Trees -->
@@ -21,6 +20,6 @@
 <!--  	<project revision="12" remote="home" name="vendor_xiaomi_device_settings" path="vendor/xiaomi/devicesettings" /> -->
         <project revision="main" remote="home_lab" name="vendor-g-cam-bsg" path="vendor/Gcam" />
         <project revision="thirteen" remote="parasite_project" name="vendor_pixel-additional" path="vendor/pixel-additional" />
-        <project revision="master" remote="clang" name="clang-r450784d" path="prebuilts/clang/host/linux-x86/clang-r450784d" clone-depth="1" />
+        <project revision="master" remote="home_lab" name="clang-r450784d" path="prebuilts/clang/host/linux-x86/clang-r450784d" clone-depth="1" />
 
 </manifest>
