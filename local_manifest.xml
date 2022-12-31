@@ -10,11 +10,9 @@
 
         <!-- Remove -->
 	<remove-project name="frameworks_base" />
-	<remove-project name="vendor_gapps" />
 
 	<!-- Replace -->
 	<project revision="thirteen" remote="home" name="frameworks_base" path="frameworks/base" />
-	<project revision="thirteen" remote="home_lab" name="vendor_gapps" path="vendor/gapps" />
 
 	<!-- Device stuff -->
 	<!-- Trees -->
