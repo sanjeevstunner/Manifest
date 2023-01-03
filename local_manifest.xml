@@ -12,7 +12,7 @@
 	<remove-project name="frameworks_base" />
 
 	<!-- Replace -->
-	<project revision="thirteen-plus" remote="home" name="frameworks_base" path="frameworks/base" />
+	<project revision="thirteen" remote="home" name="frameworks_base" path="frameworks/base" />
 
 	<!-- Device stuff -->
 	<!-- Trees -->
