@@ -3,16 +3,7 @@
 
 	<!-- Remotes -->
 	<remote name="home" fetch="https://github.com/sanjeevstunner" />
-	<remote name="mochi" fetch="https://github.com/Jebaitedneko" />
-        <remote name="parasite_project" fetch="https://github.com/TheParasiteProject" />
-
 	<remote name="home_lab" fetch="https://gitlab.com/sanjeevstunner"/>
-
-	<!-- Remove -->
-	<remove-project name="frameworks_base" />
-
-	<!-- Replace -->
-	<project revision="thirteen" remote="home" name="frameworks_base" path="frameworks/base" />
 
 	<!-- Device stuff -->
 	<!-- Trees -->
@@ -23,10 +14,7 @@
     	<project revision="main" remote="home" name="android_kernel_xiaomi_vayu" path="kernel/xiaomi/vayu" />
 
 	<!-- Add-ons -->
-<!--  	<project revision="12" remote="home" name="vendor_xiaomi_device_settings" path="vendor/xiaomi/devicesettings" /> -->
-<!--        <project revision="master" remote="home" name="android_vendor_lawnchair" path="vendor/lawnchair" /> -->
         <project revision="main" remote="home_lab" name="vendor-g-cam-bsg" path="vendor/Gcam" />
-<!--         <project revision="thirteen-plus" remote="parasite_project" name="vendor_pixel-additional" path="vendor/pixel-additional" /> -->
         <project revision="master" remote="home_lab" name="clang-r450784d" path="prebuilts/clang/host/linux-x86/clang-r450784d" clone-depth="1" />
 
 </manifest>
