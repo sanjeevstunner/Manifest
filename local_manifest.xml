@@ -7,6 +7,12 @@
 
 	<remote name="home_lab" fetch="https://gitlab.com/sanjeevstunner"/>
 
+	<!-- Remove -->
+	<remove-project name="frameworks_base" />
+
+	<!-- Replace -->
+	<project revision="thirteen" remote="home" name="frameworks_base" path="frameworks/base" />
+
 	<!-- Device stuff -->
 	<!-- Trees -->
 	<project revision="wip" remote="home" name="android_device_xiaomi_vayu" path="device/xiaomi/vayu" />
