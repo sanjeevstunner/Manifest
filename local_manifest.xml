@@ -17,7 +17,6 @@
 
 	<!-- Add-ons -->
         <project revision="main" remote="home_lab" name="vendor-g-cam-bsg" path="vendor/Gcam" />
-        <project revision="master" remote="home_lab" name="clang-r450784d" path="prebuilts/clang/host/linux-x86/clang-r450784d" clone-depth="1" />
         <project revision="A13" remote="fos_d" name="hardware_dolby" path="hardware/dolby" />
 
 </manifest>
