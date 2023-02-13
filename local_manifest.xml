@@ -14,6 +14,7 @@
 	<project revision="13" remote="home" name="android_hardware_xiaomi" path="hardware/xiaomi" />
 
     	<project revision="main" remote="home" name="android_kernel_xiaomi_vayu" path="kernel/xiaomi/vayu" />
+        <project revision="master" remote="home_lab" name="clang-r450784d" path="prebuilts/clang/host/linux-x86/clang-r450784d" clone-depth="1" />
 
 	<!-- Add-ons -->
         <project revision="main" remote="home_lab" name="vendor-g-cam-bsg" path="vendor/Gcam" />
