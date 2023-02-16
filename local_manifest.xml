@@ -24,6 +24,6 @@
 
 	<!-- Add-ons -->
         <project revision="main" remote="home_lab" name="vendor-g-cam-bsg" path="vendor/Gcam" />
-        <!-- project revision="A13" remote="fos_d" name="hardware_dolby" path="hardware/dolby" / -->
+        <project revision="A13" remote="fos_d" name="hardware_dolby" path="hardware/dolby" />
 
 </manifest>
