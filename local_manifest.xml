@@ -3,7 +3,6 @@
 
 	<!-- Remotes -->
 	<remote name="home" fetch="https://github.com/sanjeevstunner" />
-	<remote name="fos_d" fetch="https://github.com/FlamingoOS-Devices" />
 
 	<remote name="home_lab" fetch="https://gitlab.com/sanjeevstunner"/>
 
@@ -24,6 +23,5 @@
 
 	<!-- Add-ons -->
         <project revision="main" remote="home_lab" name="vendor-g-cam-bsg" path="vendor/Gcam" />
-        <project revision="A13" remote="fos_d" name="hardware_dolby" path="hardware/dolby" />
 
 </manifest>
