@@ -23,5 +23,6 @@
 
 	<!-- Add-ons -->
         <project revision="main" remote="home_lab" name="vendor-g-cam-bsg" path="vendor/Gcam" />
+        <project revision="thirteen" remote="home" name="packages_apps_Parts" path="packages/apps/Parts" />
 
 </manifest>
