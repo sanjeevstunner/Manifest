@@ -3,15 +3,8 @@
 
 	<!-- Remotes -->
 	<remote name="home" fetch="https://github.com/sanjeevstunner" />
-        <remote name="pp" fetch="https://github.com/PixelExperience" />
 
 	<remote name="home_lab" fetch="https://gitlab.com/sanjeevstunner"/>
-
-	<!-- Remove -->	
-	<remove-project name="frameworks_base" />
-
-	<!-- Replace -->
-	<project revision="thirteen-plus" remote="pp" name="frameworks_base" path="frameworks/base" />
 	
 	<!-- Device stuff -->
 	<!-- Trees -->
