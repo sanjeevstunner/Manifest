@@ -3,7 +3,6 @@
 
 	<!-- Remotes -->
 	<remote name="home" fetch="https://github.com/sanjeevstunner" />
-	<remote name="chaldea" fetch="https://github.com/chaldeaprjkt" />
 
 	<remote name="home_lab" fetch="https://gitlab.com/sanjeevstunner"/>
 	
@@ -19,5 +18,5 @@
         <project revision="main" remote="home_lab" name="firmware_xiaomi_vayu" path="firmware/xiaomi/vayu" clone-depth="1" />
 
 	<!-- Add-ons -->
-        <project revision="main" remote="home_lab" name="vendor-g-cam-bsg" path="vendor/Gcam" clone-depth="1" />
+        <project revision="main" remote="home_lab" name="vendor-g-cam-bsg" path="vendor/mgc" clone-depth="1" />
 </manifest>
