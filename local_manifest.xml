@@ -5,6 +5,12 @@
 	<remote name="home" fetch="https://github.com/sanjeevstunner" />
 
 	<remote name="home_lab" fetch="https://gitlab.com/sanjeevstunner"/>
+
+	<!-- Remove -->
+	<remove-project name="android_device_qcom_sepolicy_vndr" />
+
+	<!-- Replace -->
+	<project revision="lineage-20.0-legacy-um" remote="home" name="android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr-legacy-um" />
 	
 	<!-- Device stuff -->
 	<!-- Trees -->
