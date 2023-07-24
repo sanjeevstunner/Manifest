@@ -13,10 +13,7 @@
 	<project revision="wip" remote="home" name="android_vendor_xiaomi_vayu" path="vendor/xiaomi/vayu" clone-depth="1" />
 	<project revision="13" remote="home" name="android_hardware_xiaomi" path="hardware/xiaomi" clone-depth="1" />
 
-	android_prebuilts_clang_kernel_linux-x86_clang-r416183b
-	https://github.com/LineageOS/android_prebuilts_clang_kernel_linux-x86_clang-r416183b
-    	<project revision="wip" remote="home" name="android_kernel_xiaomi_vayu" path="kernel/xiaomi/vayu" clone-depth="1" />
-	<project revision="lineage-20.0" remote="home" name="android_prebuilts_clang_kernel_linux-x86_clang-r416183b" path="prebuilts/clang/kernel/linux-x86/clang-r416183b" clone-depth="1" />
+	<project revision="wip" remote="home" name="android_kernel_xiaomi_vayu" path="kernel/xiaomi/vayu" clone-depth="1" />
 	<project revision="master" remote="home_lab" name="clang-r450784d" path="prebuilts/clang/host/linux-x86/clang-r450784d" clone-depth="1" />
 
 <!--         <project revision="wip" remote="home_lab" name="firmware_xiaomi_vayu" path="vendor/xiaomi/vayu-firmware" clone-depth="1" /> -->
