@@ -6,9 +6,7 @@
 	<remote name="los" fetch="https://github.com/LineageOS" />
 
 	<remote name="home_lab" fetch="https://gitlab.com/sanjeevstunner"/>
-	<!-- TMP -->
-	<remove-project name="device/xiaomi/tulip" />
-
+	
 	<!-- Device stuff -->
 	<!-- Trees -->
 	<project revision="wip" remote="home" name="android_device_xiaomi_vayu" path="device/xiaomi/vayu" clone-depth="1" />
