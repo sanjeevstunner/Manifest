@@ -3,7 +3,7 @@
 
 	<!-- Remotes -->
 	<remote name="home" fetch="https://github.com/sanjeevstunner" />
-	<remote name="los" fetch="https://github.com/LineageOS" />
+	<remote name="ksu" fetch="https://github.com/tiann" />
 
 	<remote name="home_lab" fetch="https://gitlab.com/sanjeevstunner"/>
 	
@@ -14,6 +14,7 @@
 	<project revision="13" remote="home" name="android_hardware_xiaomi" path="hardware/xiaomi" clone-depth="1" />
 
 	<project revision="316" remote="home" name="android_kernel_xiaomi_vayu" path="kernel/xiaomi/vayu" clone-depth="1" />
+	<project revision="main" remote="ksu" name="KernelSU" path="kernel/xiaomi/vayu/drivers/KernelSU" clone-depth="1" />
 	<project revision="master" remote="home_lab" name="clang-r450784d" path="prebuilts/clang/host/linux-x86/clang-r450784d" clone-depth="1" />
 
 <!--         <project revision="wip" remote="home_lab" name="firmware_xiaomi_vayu" path="vendor/xiaomi/vayu-firmware" clone-depth="1" /> -->
