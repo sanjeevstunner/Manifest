@@ -8,7 +8,7 @@
 	
 	<!-- Device stuff -->
 	<!-- Trees -->
-	<project revision="lineage" remote="home" name="android_device_xiaomi_vayu" path="device/xiaomi/vayu" clone-depth="1" />
+	<project revision="arrow" remote="home" name="android_device_xiaomi_vayu" path="device/xiaomi/vayu" clone-depth="1" />
 	<project revision="13" remote="home" name="android_vendor_xiaomi_vayu" path="vendor/xiaomi/vayu" clone-depth="1" />
 	<project revision="13" remote="home" name="android_hardware_xiaomi" path="hardware/xiaomi" clone-depth="1" />
 
