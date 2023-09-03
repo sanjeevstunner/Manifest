@@ -12,7 +12,7 @@
 	<project revision="13" remote="home" name="android_vendor_xiaomi_vayu" path="vendor/xiaomi/vayu" clone-depth="1" />
 	<project revision="13" remote="home" name="android_hardware_xiaomi" path="hardware/xiaomi" clone-depth="1" />
 
-	<project revision="323" remote="home" name="android_kernel_xiaomi_vayu" path="kernel/xiaomi/vayu" clone-depth="1" />
+	<project revision="322" remote="home" name="android_kernel_xiaomi_vayu" path="kernel/xiaomi/vayu" clone-depth="1" />
 	<project revision="master" remote="home_lab" name="clang-r450784d" path="prebuilts/clang/host/linux-x86/clang-r450784d" clone-depth="1" />
 
 	<!-- Add-ons -->
