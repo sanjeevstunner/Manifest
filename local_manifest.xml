@@ -5,7 +5,7 @@
 	<remote name="home" fetch="https://github.com/sanjeevstunner" />
 
 	<remote name="home_lab" fetch="https://gitlab.com/sanjeevstunner"/>
-	<remote name="pos_lab" fetch="https://gitlab.com/sanjeevstunner"/>
+	<remote name="pos_lab" fetch="https://gitlab.com/PixelOS-AOSP"/>
 
 	<remove-project name="vendor_gms" />
 
