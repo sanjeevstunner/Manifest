@@ -3,8 +3,6 @@
 
 	<!-- Remotes -->
 	<remote name="home" fetch="https://github.com/sanjeevstunner" />
-
-	<remote name="home_lab" fetch="https://gitlab.com/sanjeevstunner"/>
 	
 	<!-- Device stuff -->
 	<!-- Trees -->
