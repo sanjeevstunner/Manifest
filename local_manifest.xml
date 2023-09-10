@@ -9,7 +9,7 @@
 
 	<remove-project name="vendor_gms" />
 
-	<project path="vendor/gms" name="vendor_google_gms" clone-depth="1" remote="pos_lab" />
+	<project revision="thirteen" path="vendor/gms" name="vendor_google_gms" clone-depth="1" remote="pos_lab" />
 
 	<!-- Device stuff -->
 	<!-- Trees -->
