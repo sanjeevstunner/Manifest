@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<!-- Remotes -->
+	<remote name="home_lab" fetch="https://gitlab.com/sanjeevstunner"/>
+	
+	<!-- Device stuff -->
+	<project revision="master" remote="home_lab" name="clang-r450784d" path="prebuilts/clang/host/linux-x86/clang-r450784d" clone-depth="1" />
+
+	<!-- Add-ons -->
+        <project revision="main" remote="home_lab" name="vendor-g-cam-bsg" path="vendor/mgc" clone-depth="1" />
+</manifest>
