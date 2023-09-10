@@ -5,11 +5,6 @@
 	<remote name="home" fetch="https://github.com/sanjeevstunner" />
 
 	<remote name="home_lab" fetch="https://gitlab.com/sanjeevstunner"/>
-	<remote name="pos_lab" fetch="https://gitlab.com/PixelOS-AOSP"/>
-
-	<remove-project name="vendor_gms" />
-
-	<project revision="thirteen" path="vendor/gms" name="vendor_google_gms" clone-depth="1" remote="pos_lab" />
 
 	<!-- Device stuff -->
 	<!-- Trees -->
@@ -19,8 +14,6 @@
 
 	<project revision="325" remote="home" name="android_kernel_xiaomi_vayu" path="kernel/xiaomi/vayu" clone-depth="1" />
 	<project revision="master" remote="home_lab" name="clang-r450784d" path="prebuilts/clang/host/linux-x86/clang-r450784d" clone-depth="1" />
-
-<!--         <project revision="wip" remote="home_lab" name="firmware_xiaomi_vayu" path="vendor/xiaomi/vayu-firmware" clone-depth="1" /> -->
 
 	<!-- Add-ons -->
         <project revision="main" remote="home_lab" name="vendor-g-cam-bsg" path="vendor/mgc" clone-depth="1" />
